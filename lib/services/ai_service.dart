@@ -52,7 +52,7 @@ class AiService {
 
     if (apiKey.isEmpty) {
       print('Warning: GEMINI_API_KEY environment variable not found or dotenv failed to load. Using embedded test key for local testing.');
-      apiKey = 'AIzaSyCU812XRWW-QOOThVQeZwMa0GLxHatbUjU';
+      apiKey = '';
     }
 
     _apiKey = apiKey;
